@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(19, 19, 19);
+}
+
+body{
+    font-family: sans-serif;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    color: white;
+    font-weight: 5px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+
+header h2{
+    color: rgba(231, 15, 170, 1);
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40%;
+}
+
+nav ol{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ol li{
+    margin-right: 20px;
+}
+
+nav ol li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ol li a:hover{
+    text-decoration: underline rgb(226, 114, 194) 2px;
+    transition: 1.2s;
+}
+
+nav ol li a img{
+    width: 20px;
+    height: 20px;
+}
+
+h3{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    color: #5846aa;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #7367a5;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline rgba(231, 15, 170, 1) 2px;
+    transition: 1.2s;
+}
+
+.end {
+    justify-content: space-between;
+    display: flex;
+    margin-left: 1%;
+    margin-top: 15%;
+  }
+  
+  .end h2 {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .contact-end {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-end p {
+    color: #fff;
+    margin-left: 15px;
+    font-size: 12px;
+  }
+  
+  .contact-end img {
+    width: 22px;
+    height: 22px;
+    margin-left: 15px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+    margin-top: 40px;
+  }
+  
+  footer ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  footer ul li {
+    margin-right: 20px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline rgba(231, 15, 170, 1) 2px;
+    transition: 1.2s;
+  }
+  
+  footer p {
+    color: #fff;
+    font-size: 13px;
+  }
+  
+  footer p span {
+    color: rgba(231, 15, 170, 1);
+  }

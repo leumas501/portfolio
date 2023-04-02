@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(19, 19, 19);
+}
+
+body{
+    font-family: sans-serif;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    color: white;
+    font-weight: 5px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header h2{
+    color: rgba(231, 15, 170, 1);
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40%;
+}
+
+nav ol{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ol li{
+    margin-right: 20px;
+}
+
+nav ol li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ol li a:hover{
+    text-decoration: underline rgb(226, 114, 194) 2px;
+    transition: 1.2s;
+}
+
+nav ol li a img{
+    width: 20px;
+    height: 20px;
+}
+
+.about {
+    width: 50%;
+    color: #fff;
+  }
+  
+  .about h1 {
+    color: rgb(235, 87, 193);
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .about .duration {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  
+  .about .duration button {
+    width: 100px;
+    height: 25px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(235, 87, 193);
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  
+  .about .icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .about .icon-container-left {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .about .icon-container-left button {
+    background: none;
+    border: none;
+    margin-right: 20px;
+  }
+  
+  .about .icon-container-left button span {
+    color: #fff;
+  }
+  
+  .about .icon-container-right button {
+    background: none;
+    border: none;
+  }
+  
+  .about .icon-container-right button span {
+    color: #fff;
+  }  
